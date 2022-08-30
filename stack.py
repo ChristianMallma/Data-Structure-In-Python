@@ -9,6 +9,8 @@ class Stack:
     self.elements.append(element)
   
   def delete(self):
+    if len(self.elements) == 0:
+      raise ValueError("Can't delete elements. The list is empty")
     self.elements.pop()
   
   def find_the_last(self):
