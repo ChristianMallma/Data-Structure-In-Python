@@ -26,3 +26,10 @@ print(node2.previous_node.value)
 print(node1.next_node.next_node.value)
 print(node3.value)
 print(node2.next_node.value)
+
+# Adding head and tail of our circular list
+head = node1
+tail = node3
+
+print(head.value)
+print(tail.value)
